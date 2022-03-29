@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/ab5b2cefe4.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>RPS!</title>
+  </head>
+  <body>
+    <div class="side" id="left">
+      <h1>You</h1>
+    </div>
+
+    <div class="main">
+      <h1>Rock Paper Scissors!</h1>
+
+      <h2>Score</h2>
+
+      <div class="scorebox">
+        <span class="sidetext">You</span>
+        <div class="score">
+          <span id="me">0</span>
+        </div>
+
+        <div class="score"><span>:</span></div>
+
+        <div class="score">
+          <span id="computer">0</span>
+        </div>
+        <span class="sidetext">Com</span>
+      </div>
+
+      <span id="text">Make your choice!</span>
+
+      <div class="choices">
+        <div class="buttons" id="rock">
+          <i class="fa-solid fa-hand-back-fist"></i>
+        </div>
+        <div class="buttons" id="paper">
+          <i class="fa-solid fa-hand"></i>
+        </div>
+        <div class="buttons" id="scissors">
+          <i class="fa-solid fa-hand-scissors"></i>
+        </div>
+      </div>
+
+      <button id="reset">Reset</button>
+    </div>
+
+    <div class="side" id="right">
+      <h1>Computer</h1>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
